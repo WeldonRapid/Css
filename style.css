@@ -1,0 +1,35 @@
+<style>
+nav {
+    list-style-type: none;
+    padding: 0;
+    width: 25%;
+    position: right;
+    height: 100%;
+    overflow: auto;
+    float: right;
+    background-color: #3C4F76;
+    }
+    
+nav ul {
+    list-style-type: none;
+    color: white;
+    }
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;  
+    color: white;
+    }
+
+li a.active {
+    background-color: #E2C044;
+    color: black;
+    }
+
+li a:hover:not(.active) {
+    background-color: #9FB1BC;
+    color: white;
+    }
+</style>
